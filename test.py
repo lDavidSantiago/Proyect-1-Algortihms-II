@@ -32,7 +32,7 @@ def calcular_mejor_coste(word1,word2,i,j,advance_Cost,delete_Cost,replace_Cost,i
         costos.append(insert_Cost)
         return calcular_mejor_coste(word1,word2,i,j,advance_Cost,delete_Cost,replace_Cost,insert_Cost,kill_Cost,operaciones,costos)
     if j == len(word2):
-        
+
         to_delete = len(word1[i:])
         if to_delete*delete_Cost<kill_Cost:        
             word1,word2,i,j = delete(word1,word2,i,j)
