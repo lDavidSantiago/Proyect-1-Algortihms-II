@@ -86,9 +86,9 @@ def tupla_con_menor_suma(lista_de_tuplas):
     return min(lista_de_tuplas, key=lambda tupla: sum(tupla[0]))
 costos1 = []
 operaciones = []
-string = "benyam"
+string = "Electroen"
 word1 = list(string)
-string2 = "ephrem"
+string2 = "Anticonsti"
 word2 = list(string2)
 
 word1_ =list()
